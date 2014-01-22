@@ -1,0 +1,3 @@
+TODO: test majListeJeuBdd pour recupla liste des jeux d'un user dans la bdd
+TODO: page profil a terminer!
+TODO: _actif a mettre

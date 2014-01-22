@@ -1,0 +1,277 @@
+body
+{
+	background	:	url('images/top.jpg');
+	font-family	:	"Arial";
+	background-color : black;
+	color : GhostWhite;
+}
+
+img
+{
+	border	:	0;
+}
+
+span.TextError
+{
+	color	:	red;
+	position : absolute;
+	margin-top:-5%;
+	margin-left:35%;
+	background-color:GhostWhite;
+}
+
+a
+{
+	text-decoration	:	none;
+	color			:	#86ae0c; /* couleur des liens normaux */
+	font-size		:	12px;
+}
+a:hover
+{
+	text-decoration	:	none;
+	color			:	#b50000; /* couleurs des liens normaux survolés */
+}
+
+div.global
+{
+	position	:	relative;
+	margin		:	auto;
+	height		:	100%;
+	width		:	100%;
+	text-align:center;
+}
+
+div.TopBarre
+{
+	position	:	relative;
+	margin		:	0 auto;
+	text-align	:	center;
+	width		:	100%;
+}
+
+div.TopBarre2
+{
+	position	:	relative;
+	margin		:	0 auto;
+	text-align	:	center;
+	width		:	100%;
+}
+
+div.banniere
+{
+	background-color	:	dimgray;
+	position 			:	relative;
+	overflow			:	visible;
+	height:185px;
+	
+	font-size			:	5em;
+	color				:	brown;
+	text-align	:	center;  
+	text-shadow			:	0px 0px 7px rgba(0, 0, 0, 0.75);
+
+	-moz-border-radius		:	3px;
+	-webkit-border-radius	:	3px;
+	-khtml-border-radius	:	3px;
+	border-radius			:	3px;
+
+	box-shadow			:	0px 1px 5px 0px black;
+	-khtml-box-shadow	:	0px 1px 5px 0px black;
+	-webkit-box-shadow	:	0px 1px 5px 0px black;
+	-moz-box-shadow		:	0px 1px 5px 0px black;
+
+}
+
+div.banniereCentre
+{
+	float	:	clear;
+}
+div.bannierePub1
+{
+	position:	absolute;
+	top		:	0;
+	left	:	0;
+}
+div.bannierePub2
+{
+	position:	absolute;
+	top		:	0;
+	right	:	0;
+}
+
+img#ImageAdapteeAuDiv
+{
+	max-height	:	100%;
+	width		:	auto;
+}
+
+div.TopBarreButton, div.TopBarreButton2
+{
+	position	:	relative;
+	margin-left	:	2px;
+	padding		:	7px;
+	padding-left:	10px;	
+    display		:	inline-block;  
+    text-align	:	center;  
+    font-size	:	18px;  
+    height		:	100%;
+    background	:	dimgray; /*#86ae0c;  */
+	font-family	:	"Arial";
+}
+
+div.TopBarreButton2:hover , div.TopBarreButton
+{  
+	-khtml-box-shadow	:	0px 0px 30px 1px inset black;
+	-webkit-box-shadow	:	0px 0px 30px 1px inset black;
+	-moz-box-shadow		:	0px 0px 30px 1px inset black;
+	box-shadow			:	0px 0px 30px 1px inset black;
+
+	display: inline-block;
+}
+
+div.TopBarreButton:hover
+{
+	-khtml-box-shadow	:	0px 0px 0px 0px inset black;
+	-webkit-box-shadow	:	0px 0px 0px 0px inset black;
+	-moz-box-shadow		:	0px 0px 0px 0px inset black;
+	box-shadow			:	0px 0px 0px 0px inset black;
+}
+
+.TopBarreButton	a, div.TopBarreButton2:hover a
+{
+	text-decoration	:	none;
+	color 			:	#e4f2e4; /* couleur des liens du menu principal */
+	display			:	block;
+	font-family		:	"Arial";
+	font-size		:	15px;
+	height			:	100%;
+	width			:	100%;
+}
+
+.TopBarreButton:hover a, div.TopBarreButton2 a
+{
+	text-decoration	:	none;
+	color 			:	#c9e5c9; /* couleur des liens du menu principal */
+	display			:	block;
+	font-family		:	"Arial";
+	font-size		:	15px;
+	height			:	100%;
+	width			:	100%; /* couleur des liens survolés du menu principal */
+}
+
+
+.TopBarreButton img
+{
+	vertical-align : middle;
+}
+
+.plus {  
+	display: inline-block;  
+	-webkit-transition: 2s ease-in-out;  
+	-moz-transition: 2s ease-in-out;  
+	-o-transition: 2s ease-in-out;  
+	float:left;
+	margin-left:3px;
+	margin-right:3px;
+} 
+
+.TopBarreButton:hover .plus {  
+	-webkit-transform: rotate(360deg);  
+	-moz-transform: rotate(360deg);  
+	-o-transform: rotate(360deg);  
+} 
+
+div.page
+{
+	position:relative;
+	width	:	80%;
+	margin	:	auto;
+	margin-top : 1%;
+	vertical-align	:	top;
+	display:block;
+	background-color:black;
+}
+div.news
+{
+	position:relative;
+	display	:	inline-block;
+	width:20%;	
+	vertical-align:	top;
+	margin-right:2%;
+	background-color : dimgray	;
+	
+	-moz-border-radius		:	3px;
+	-webkit-border-radius	:	3px;
+	-khtml-border-radius	:	3px;
+	border-radius			:	3px;
+}
+div.stream
+{
+	position:relative;
+	display	:	inline-block;
+	vertical-align:	top;
+	background-color : dimgray	;
+	
+	-moz-border-radius		:	3px;
+	-webkit-border-radius	:	3px;
+	-khtml-border-radius	:	3px;
+	border-radius			:	3px;
+}
+div.tuto
+{
+	position:relative;
+	display	:	inline-block;
+	vertical-align:	top;
+	margin-right:2	%;
+	width:50%;
+	background-color : dimgray	;
+	
+	-moz-border-radius		:	3px;
+	-webkit-border-radius	:	3px;
+	-khtml-border-radius	:	3px;
+	border-radius			:	3px;
+}
+div.cours
+{
+	position:relative;
+	display	:	inline-block;
+	width : 20%;
+	vertical-align:	top;
+	background-color : dimgray	;
+	
+		-moz-border-radius		:	3px;
+	-webkit-border-radius	:	3px;
+	-khtml-border-radius	:	3px;
+	border-radius			:	3px;
+}
+
+div.footer
+{
+	background-color	:	dimgray;
+	position 			:	relative;
+	overflow			:	visible;
+	color	:	black;
+	text-align			:	center;  
+	margin-top			:	5%;
+
+	-moz-border-radius		:	3px;
+	-webkit-border-radius	:	3px;
+	-khtml-border-radius	:	3px;
+	border-radius			:	3px;
+
+	box-shadow			:	0px 1px 5px 0px inset black;
+	-khtml-box-shadow	:	0px 1px 5px 0px inset black;
+	-webkit-box-shadow	:	0px 1px 5px 0px inset black;
+	-moz-box-shadow		:	0px 1px 5px 0px inset black;
+}
+
+div.pageTitre
+{
+	width:100%;
+	text-decoration : overline underline;
+	color:black;
+}
+
+.ajaxok
+{
+	width : 15px;
+}

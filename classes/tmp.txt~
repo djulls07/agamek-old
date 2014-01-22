@@ -1,0 +1,41 @@
+	// Create a user agent so websites don't block you
+	<?php	$userAgent = 'Death SITE';
+
+		// Create the initial link you want.
+		$target_url = "http://dotabuff.com/players/" . convert_id($this->_steamId64);
+
+		// Initialize curl and following options
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_USERAGENT, $userAgent);
+		curl_setopt($ch, CURLOPT_URL,$target_url);
+		//curl_setopt($ch, CURLOPT_FAILONERROR, true);
+		//curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+		//curl_setopt($ch, CURLOPT_AUTOREFERER, true);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER,true);
+		//curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+		
+		// Grab the html from the page
+		$html = curl_exec($ch);
+		curl_close($ch);
+
+		// Create a new DOM Document to handle scraping
+		$dom = new DOMDocument;
+		libxml_use_internal_errors(true);
+		$dom->loadHTML($html);
+		libxml_clear_errors();
+
+		//echo $dom->saveHTML();
+		$r = $dom->getElementsByTagName("img");
+		foreach($r as $rep) {
+			$att = $rep->getAttribute("src");
+			if (strcmp(substr($att,0,4),"http"))
+				$rep->setAttribute('src', 'http://dotabuff.com'.$att);
+		}
+		$r = $dom->getElementsByTagName("a");
+		foreach($r as $rep) {
+			$att = $rep->getAttribute("href");
+			if (strcmp(substr($att,0,4),"http")	)
+				$rep->setAttribute('href', 'http://dotabuff.com'.$att);
+		}
+		$htmlText = $dom->saveHTML();
+		?>

@@ -1,0 +1,24 @@
+si pas de jeu principaux ( soit les 3 premiers soit select ar player ).select l'afficher.
+
+
+lol:
+
+
+
+dota:
+most played heroes with KDR, win rate, match played, avatar, tation win/loose
+
+
+
+sc2:
+
+
+
+
+
+
+
+
+
+League:
+A afficher sur profil si participe !

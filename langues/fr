@@ -1,0 +1,16 @@
+{"inscription_titre":"Inscription",
+"inscription_ok":"Inscription OK. Activez votre compte.",
+"compte_existe":"Votre compte existe deja.",
+"compte_active":"Compte active. Vous serez connecté et redirigé vers Accueil dans 5 secondes",
+"actif_deja":"Votre compte à déjà été activé. Redirection dans 5 secondes.",
+"connecte_ok":"Vous etes connecté en tant que",
+"connexion_ko_champs":"Erreur. Remplissez les 2 champs.",
+"bienvenue":"Bienvenue",
+"compte_n_existe":"Combinaison pseudo-mot de passe invalide ou compte non activé",
+"compte_n_actif":"Vous devez activer votre compte.",
+"inscription":"Inscription",
+"champs_remplir":"Vous devez remplir ce champs.",
+"profil":"profil",
+"deco":"Deconnexion",
+"no_profil":"Profil inexistant."
+}

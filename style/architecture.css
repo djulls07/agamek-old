@@ -1,0 +1,208 @@
+body
+{
+	background: url('images/top.jpg');
+	font-family : "Arial";
+	margin:0;
+}
+
+img
+{
+	border:0;
+}
+
+a
+{
+	text-decoration:none;
+	color:#86ae0c; /* couleur des liens normaux */
+	font-size:12px;
+}
+a:hover
+{
+	text-decoration:none;
+	color : #b50000; /* couleurs des liens normaux survolés */
+}
+
+/*   INDEX    */ 
+
+
+div.container_absolute_top
+{
+	position:relative;
+	top:0;
+	left:0;
+}
+
+div.barres_top /* contient les deux barres du haut */
+{
+	position : fixed ;
+	width : 100%;
+	height:75px;
+	z-index:3;
+}
+
+div.barre_connexion /* la 1e barre : accueil, login... */
+{
+	background-color : black;
+	position : relative ;
+	width : 100%;
+	overflow : auto;
+	text-align : center;
+	color : white;
+	height:30px;
+}
+
+h3.bouton_top
+{
+	position	:	relative;
+    display		:	inline-block;  
+	margin-left	:	2px;
+	padding		:	7px;
+	padding-left:	10px;
+	margin-top	:	0;
+    text-align	:	center;  
+    background	:	dimgray; /*#86ae0c;  */
+}
+
+div.barre_connexion	a
+{
+	text-decoration	:	none;
+	height			:	100%;
+	width			:	100%;
+	font-size	:	18px;  
+	font-family	:	"Arial";
+	color : white;
+	overflow:auto;
+}
+
+div.barre_jeux /* la barre contenant les boutons jeux */
+{
+	background-color : gray;
+	position : relative ;
+	width : 100%;
+	text-align	:	center; 
+	height:45px;
+	overflow:auto;
+}
+
+h3.bouton_jeu
+{
+	position	:	relative;
+    display		:	inline-block;  
+	margin-top	:	0;
+    text-align	:	center;  
+    background	:	dimgray; /*#86ae0c;  */
+}
+
+span.bouton_jeu_image
+{
+	display: inline-block;  
+	-webkit-transition: 2s ease-in-out;  
+	-moz-transition: 2s ease-in-out;  
+	-o-transition: 2s ease-in-out;  
+	float:left;
+	margin-left:3px;
+	margin-right:3px;
+}
+.bouton_jeu:hover .bouton_jeu_image {  
+	-webkit-transform: rotate(360deg);  
+	-moz-transform: rotate(360deg);  
+	-o-transform: rotate(360deg);  
+} 
+
+.bouton_jeu	a
+{
+	text-decoration	:	none;
+	height			:	100%;
+	width			:	100%;
+	font-size	:	18px;  
+	font-family	:	"Arial";
+	color : Black;
+}
+
+div.page
+{
+	background-color : purple;
+	position : absolute;
+	padding-left:10%;
+	width : 100%;
+	margin-top:75px;
+	height : 1000px;
+}
+
+div.contentcentre
+{
+	float:left;
+	width:60%;
+	background-color : pink;
+	height:1000px;
+}
+
+div.banniere
+{
+	background-color : orange;
+	position : relative;
+	width : 100%;
+	height : 10%;
+}
+
+div.banniere_image
+{
+	float	:	left;
+	height:100%;
+}
+
+div.banniere_texte
+{
+	float	:	left;
+	line-height	:	100px;
+	font-family : "Papyrus";
+	font-size : 45px;
+	background-color : lightblue;
+}
+
+div.menu
+{
+	background-color : pink;
+	width : 60%;
+}
+
+div.content
+{
+	background-color : yellow;
+	position : relative;
+	width : 100%;
+}
+
+div.contentgauche
+{
+	background-color : green;
+	position : relative;
+	height : 1000px;
+	width : 10%;
+	float:left;
+}
+
+div.contentdroite
+{
+	background-color : blue;
+	position : relative;
+	height : 1000px;
+	width : 10%;
+	float:left;
+}
+
+div.foot
+{
+	position : fixed;
+	bottom : 0;
+	width : 100%;
+	background-color : maroon;
+	z-index:2;
+}
+
+
+
+
+
+
+
