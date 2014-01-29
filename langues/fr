@@ -12,5 +12,9 @@
 "champs_remplir":"Vous devez remplir ce champs.",
 "profil":"profil",
 "deco":"Deconnexion",
-"no_profil":"Profil inexistant."
+"no_profil":"Profil inexistant.",
+"profil_d":"profil de",
+"edit_profil":"Editer profil",
+"pseudo":"pseudo",
+"region":"region"
 }
